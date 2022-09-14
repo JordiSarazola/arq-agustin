@@ -1,0 +1,85 @@
+.contenedor-index {
+    height: 99vh;
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    margin: 0px;
+}
+
+.caja-navegador {
+    background-color: rgba(0, 0, 0, 0.466);
+    display: grid;
+    grid-row: 1/7;
+}
+
+.caja-navegador nav {
+    display: grid;
+    align-items: center;
+}
+
+.caja-navegador ul {
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.caja-navegador ul li {
+    margin: 3px;
+    padding-top: 60px;
+}
+
+.caja-imagen {
+    display: grid;
+    grid-column: 2/9;
+    grid-row: 3/4;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.caja-imagen p {
+    font-family: 'Montserrat';
+    font-size: 6rem;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-footer {
+    background-color: rgba(0, 0, 0, 0.466);
+    display: grid;
+    grid-column: 2/9;
+    grid-row: 6/7;
+}
+
+.flex-footer ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-footer {
+    width: 80vw;
+    font-family: 'Lato';
+    font-size: 1.3rem;
+}
+.flex-footer ul li{color: white;}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'lato';
+}
+
+body {
+    background-image: url(../assets/img/index.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
